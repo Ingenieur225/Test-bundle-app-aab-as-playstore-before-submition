@@ -5,6 +5,7 @@ Exemple :
 
 wget https://github.com/google/bundletool/releases/download/1.15.6/bundletool-all-1.15.6.jar -O bundletool.jar
 
+flutter build appbundle --release
 
 Lance-le avec Java (au lieu de bundletool) :
 
