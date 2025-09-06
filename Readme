@@ -17,3 +17,8 @@ java -jar bundletool.jar build-apks \
 Installe sur ton téléphone :
 
 java -jar bundletool.jar install-apks --apks=app.apks
+
+ou sinon
+
+unzip app.apks -d apks
+adb install -r apks/universal.apk
