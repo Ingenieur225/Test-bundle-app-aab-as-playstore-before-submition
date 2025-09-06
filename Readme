@@ -1,0 +1,19 @@
+Télécharge bundletool.jar :
+👉 Lien officiel GitHub Google
+
+Exemple :
+
+wget https://github.com/google/bundletool/releases/download/1.15.6/bundletool-all-1.15.6.jar -O bundletool.jar
+
+
+Lance-le avec Java (au lieu de bundletool) :
+
+java -jar bundletool.jar build-apks \
+  --bundle=build/app/outputs/bundle/release/app-release.aab \
+  --output=app.apks \
+  --mode=universal
+
+
+Installe sur ton téléphone :
+
+java -jar bundletool.jar install-apks --apks=app.apks
